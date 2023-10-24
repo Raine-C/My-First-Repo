@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raine Cai Portfolio</title>
-    <link rel="stylesheet" href="style.css" </head>
+    <link rel="stylesheet" href="style.css" <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
+</head>
 
 <body>
     <header>
@@ -15,20 +18,57 @@
                 <li><a href="#">Work</a></li>
                 <li><a href="#">About me</a></li>
                 <li><a href="#">Resume↗ </a></li>
-                <li><a href="#">EN/繁</a></li>
+                <label class="switch">
+                    <input type="checkbox" id="togBtn">
+                    <div class="slider round">
+                        <!--ADDED HTML -->
+                        <span class="on">EN</span>
+                        <span class="off">繁</span>
+                </label>
         </nav>
     </header>
     <main>
         <section class="introduction">
-        <h1>Hello I'm Raine</h1>
-        <h3>I'm a UI / UX designer who loves solving problems in a human-centred and logical way.</h3>
-        <img src="/image/Mask group.png" alt="photo of the Raine">
+            <div class="intro">
+                <h1>Hello I'm Raine</h1>
+                <h3>I'm a UI / UX designer who loves solving problems in a human-centred and logical way.</h3>
+                <div class="ctabutton">
+                    <h5> view my work </h5>
+                    <button> contact me </button>
+                </div>
+            </div>
+            <img src="/image/Mask group.png" alt="photo of the Raine">
+
         </section>
-        
+        <section class="title">
+            <h2>My Background</h2>
+            </section>
+
         <section class="mybackground">
+            <div>
+                <img src="image/2014WOW.png" alt="2014 WOW project">
+                <h3>Theatre Art</h3>
+                <h4>Bringing Imagination to Life</h4>
+            </div>
+            <div>
+                <img src="image/sales engineer.jpg" alt="2014 WOW project">
+                <h3>Sales Engineer</h3>
+                <h4>Empathy-Driven Client Success</h4>
+            </div>
+            <div>
+                <img src="image/Project manager.jpg" alt="2014 WOW project">
+                <h3>Project Manager</h3>
+                <h4>Crafting Content, Shaping Excellence</h4>
+            </div>
         </section>
+        <section class="title">
+            <h2>My Work</h2>
+            </section>
         <section class="mywork">
         </section>
+        <section class="title">
+            <h2>Testimonial</h2>
+            </section>
         <section class="testimonial">
         </section>
     </main>

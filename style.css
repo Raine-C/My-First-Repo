@@ -1,10 +1,11 @@
 * {
     padding: 0;
     margin: 0;
-    list-style: none;
 }
 
 header {
+    font-family: Philosopher;
+    color: #1c2321;
     background: #fafaef;
     height: 123px;
     width: 100%;
@@ -159,9 +160,11 @@ section {
     border: 0px;
 }
 .title h2 {
+    color: #1c2321;
     font-size: 39px;
     text-align: center;
     margin-bottom: 0%;
+    font-family: Philosopher;
 }
 
 .mybackground {
@@ -185,6 +188,7 @@ footer {
 }
 
 footer p {
+    font-family: Philosopher;
     color: #fafaef;
     text-align: right;
 }

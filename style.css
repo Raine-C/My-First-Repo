@@ -121,14 +121,16 @@ header h1 {
     background-position: center;
 }
 
-
+ /* main */
 
 section {
     background: #fafaef;
     padding: 48px 144px;
+    align-items: center;
     max-width: 1440px;
 }
 
+ /* introduction */
 
 .introduction {
     display: flex;
@@ -179,7 +181,7 @@ section {
     border-radius: 20px;
     border: 0px;
 }
-
+ /* My Background */
 .title h2 {
     color: #1c2321;
     font-size: 39px;
@@ -190,20 +192,28 @@ section {
 
 .mybackground {
     display: flex;
-    justify-content: space-between;
-}
-
-.mybackground div {
-    width: 319px;
-    text-align: center;
-}
-
-.mybackground img {
-    width: 100%;
-    border-radius: 20px;
+    justify-content: space-around;
 }
 
 
+
+.mybackground h3 {
+    font-size: 31px;
+    align-items: center;
+    justify-content: center;
+    color: #fafaef;
+    background-position: center;
+    background: rgb(0, 0, 0, 0.6);
+    font-family: Philosopher;
+
+}
+
+
+/* My worK */
+
+/* Testimonial */
+
+/* Footer */
 footer {
     background: #1c2321;
     padding: 24px 144px;

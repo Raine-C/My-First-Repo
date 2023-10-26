@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    background-color: #fafaef;
 }
 
 header {
@@ -10,24 +11,28 @@ header {
     background: #fafaef;
     height: 123px;
     width: 100%;
-    position: relative;
+    max-width: 1440px;
+    justify-content: space-between;
+
 }
 .logo {
-    margin: 20px 40px;
-}
-
-.logo, .navbar{
+    margin: 20px 0px 20px 140px;
     display: flex;
     align-items: center;
-    justify-content: left;
+}
+.navbar  {
+    margin: 20px 140px;
+    display: flex;
+    align-items: center;
 }
 
+
 header ul {
-    position: absolute;
     top: 0;
     line-height: 123px;
 
 }
+
 header li {
     display: inline;
     margin-right: 1vw;
@@ -108,7 +113,6 @@ header a:hover {
 }
 
 header h1 {
-    position: absolute;
     left: 144px;
     top: 0;
     line-height: 123px;
@@ -122,11 +126,15 @@ header h1 {
 section {
     background: #fafaef;
     padding: 48px 144px;
+    max-width: 1440px;
 }
 
 
 .introduction {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
 }
 
 .introduction h1 {

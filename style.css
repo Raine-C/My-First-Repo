@@ -4,6 +4,7 @@
 }
 
 header {
+    display: flex;
     font-family: Philosopher;
     color: #1c2321;
     background: #fafaef;
@@ -11,19 +12,28 @@ header {
     width: 100%;
     position: relative;
 }
+.logo {
+    margin: 20px 40px;
+}
 
+.logo, .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+header ul {
+    position: absolute;
+    top: 0;
+    line-height: 123px;
+
+}
 header li {
     display: inline;
     margin-right: 1vw;
 }
 
-header ul {
-    position: absolute;
-    right: 144px;
-    top: 0;
-    line-height: 123px;
 
-}
 
 /* The switch - the box around the slider */
 .switch {
@@ -119,11 +129,6 @@ section {
     display: flex;
 }
 
-.introduction img {
-    width: 394px;
-    left: 144px;
-}
-
 .introduction h1 {
     font-size: 49px;
     color: #1c2321;
@@ -139,9 +144,16 @@ section {
     margin-bottom: 40px;
     margin-right: 80px;
 }
+
+.introduction img {
+    width: 394px;
+    left: 144px;
+}
+
 .ctabutton {
     display: flex;
 }
+
 .introduction h5 {
     font-size: 20px;
     color: #1c2321;
@@ -159,6 +171,7 @@ section {
     border-radius: 20px;
     border: 0px;
 }
+
 .title h2 {
     color: #1c2321;
     font-size: 39px;
@@ -173,11 +186,12 @@ section {
 }
 
 .mybackground div {
-    width: 319px ;
+    width: 319px;
     text-align: center;
 }
+
 .mybackground img {
-    width: 100% ;
+    width: 100%;
     border-radius: 20px;
 }
 

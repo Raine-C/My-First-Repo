@@ -194,16 +194,57 @@ section {
     max-width: 1440px;
 }
 
+.TheatreArt,
+.SalesEngineer,
+.ProjectManager {
+    height: 429px;
+    width: 319px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
 
-.mybackground h3 {
+
+.TheatreArt {
+    height: 429px;
+    width: 319px;
+    background-image: url("/image/TheatreArt.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.SalesEngineer {
+    height: 429px;
+    width: 319px;
+    background-image: url("/image/SalesEngineer.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.ProjectManager {
+    height: 429px;
+    width: 319px;
+    background-image: url("/image/ProjectManager.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text h3 {
     font-size: 31px;
     align-items: center;
     justify-content: center;
-    color: #fafaef;
-    background-position: center;
-    background: rgb(0, 0, 0, 0.6);
     font-family: Philosopher;
+    color: #fafaef;
 
+}
+
+.text{
+    background-color: rgba(0, 0, 0, 1);
 }
 
 

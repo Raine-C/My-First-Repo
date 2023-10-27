@@ -16,12 +16,12 @@ header {
 
 }
 .logo {
-    margin: 20px 0px 20px 140px;
+    margin: 20px 0px 20px 10vw;
     display: flex;
     align-items: center;
 }
 .navbar  {
-    margin: 20px 140px;
+    margin: 20px 10vw;
     display: flex;
     align-items: center;
 }
@@ -112,20 +112,13 @@ header a:hover {
     text-decoration: underline;
 }
 
-header h1 {
-    left: 144px;
-    top: 0;
-    line-height: 123px;
-    background-image: url();
-    background-repeat: no-repeat;
-    background-position: center;
-}
+
 
  /* main */
 
 section {
     background: #fafaef;
-    padding: 48px 144px;
+    padding: 48px 10vw;
     align-items: center;
     max-width: 1440px;
 }
@@ -219,8 +212,18 @@ footer {
     padding: 24px 144px;
 }
 
+footer h6 {
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 16px;
+    background: #1c2321;
+    color: #fafaef;
+    text-align: left;
+}
+
 footer p {
-    font-family: Philosopher;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 14px;
+    background: #1c2321;
     color: #fafaef;
     text-align: right;
 }

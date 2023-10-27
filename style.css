@@ -15,12 +15,14 @@ header {
     justify-content: space-between;
 
 }
+
 .logo {
     margin: 20px 0px 20px 10vw;
     display: flex;
     align-items: center;
 }
-.navbar  {
+
+.navbar {
     margin: 20px 10vw;
     display: flex;
     align-items: center;
@@ -114,7 +116,7 @@ header a:hover {
 
 
 
- /* main */
+/* main */
 
 section {
     background: #fafaef;
@@ -123,7 +125,7 @@ section {
     max-width: 1440px;
 }
 
- /* introduction */
+/* Hero Page */
 
 .introduction {
     display: flex;
@@ -145,7 +147,7 @@ section {
     font-family: Philosopher;
     width: 588px;
     margin-bottom: 40px;
-    margin-right: 80px;
+    /* margin-right: 80px; */
 }
 
 .introduction img {
@@ -155,6 +157,8 @@ section {
 
 .ctabutton {
     display: flex;
+    align-items: center;
+
 }
 
 .introduction h5 {
@@ -174,7 +178,8 @@ section {
     border-radius: 20px;
     border: 0px;
 }
- /* My Background */
+
+/* My Background */
 .title h2 {
     color: #1c2321;
     font-size: 39px;
@@ -186,8 +191,8 @@ section {
 .mybackground {
     display: flex;
     justify-content: space-around;
+    max-width: 1440px;
 }
-
 
 
 .mybackground h3 {
@@ -213,7 +218,7 @@ footer {
 }
 
 footer h6 {
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     background: #1c2321;
     color: #fafaef;
@@ -221,7 +226,7 @@ footer h6 {
 }
 
 footer p {
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     background: #1c2321;
     color: #fafaef;

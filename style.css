@@ -4,38 +4,38 @@
 }
 
 header {
-    display: flex;
     font-family: Philosopher;
     color: #1c2321;
     background: #fafaefb3;
-    height: 123px;
+    height: 100px;
     width: 100%;
-    justify-content: space-between;
+    display: flex;
     position: fixed;
+    justify-content: space-between;
     z-index: 5;
+    padding: 0px 0 0 10vw;
 
 }
 
 .logo {
-    margin: 20px 0px 20px 10vw;
+    /* margin: 20px 0px 20px 10vw; */
     display: flex;
     align-items: center;
 }
 
 .navbar {
-    margin: 20px 10vw;
     display: flex;
     align-items: center;
 }
 
 
 header ul {
-    top: 0;
-    line-height: 123px;
+    /* line-height: 123px; */
 
 }
 
 header li {
+    /* line-height: 123px; */
     display: inline;
     margin-right: 1vw;
 }
@@ -131,7 +131,7 @@ section {
 
 .introduction {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding-top: 123px;
 }
@@ -195,7 +195,7 @@ section {
 .mybackground {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 #flashcardPicture {

@@ -1,7 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-    /* background-color: #fafaef; */
 }
 
 header {
@@ -120,9 +119,6 @@ header a:hover {
 section {
     background: #fafaef;
     padding: 48px 10vw;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     max-width: 1440px;
 }
 
@@ -190,17 +186,17 @@ section {
 }
 .mybackground {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
-    max-width: 1440px;
-}
+    padding: 0 10vw;
+} 
 
-.flashcardPicture {
+#flashcardPicture {
     display: flex;
     justify-content: space-around;
     max-width: 1440px;
+    z-index: 1;
 }
-
 
 .TheatreArt,
 .SalesEngineer,
@@ -230,7 +226,6 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
 }
 
 .ProjectManager {
@@ -250,6 +245,7 @@ section {
     width: 100%;
     height: 100%;
     border-radius: 20px;
+    
 }
 
 
@@ -262,18 +258,77 @@ section {
 
 }
 
+#flashcard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1440px;
+}
+
 .TheatreArtcard,
 .SalesEngineercard,
 .ProjectManagercard {
-    height: 319px;
-    width: 255px;
+    border-radius: 0 0 20px 20px;
+    background-color: #fff;
+    border: 1px solid #907764;
+    height: 215px;
+    width: 318px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    border-radius: 20px;
+    justify-content: flex-end;
+    margin-top: -140px;
+
+}
+
+#flashcard h4{
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-family: Philosopher;
+}
+
+#flashcard img{
+    margin-bottom: 16px;
+    width: 48px;
+    height: 48px;
+
 }
 
 /* My worK */
+
+#worklistGrid {
+    display: grid;
+    padding: 0 10vw;
+    grid-template: 503px 42px 42px 503px 42px 42px / 564px 564px;
+    grid-area:
+    "work1 work2"
+    "01PN 02PN"
+    "01PD 02PD"
+    "work3 work4"
+    "03PN 04PN"
+    "03PD 04PD";
+
+}
+
+#work1{
+    background-image: url("/image/photoWF.png");
+    grid-area: work1;
+}
+
+#work2{
+    background-image: url("/image/photoWF.png");
+    grid-area: work2;
+}
+
+#work3{
+    background-image: url("/image/photoWF.png");
+    grid-area: work3;
+}
+
+#work4{
+    background-image: url("/image/photoWF.png");
+    grid-area: work4;
+}
 
 /* Testimonial */
 

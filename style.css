@@ -119,7 +119,6 @@ header a:hover {
 section {
     background: #fafaef;
     padding: 48px 10vw;
-    max-width: 1440px;
 }
 
 /* Hero Page */
@@ -128,7 +127,6 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1440px;
 }
 
 .introduction h1 {
@@ -184,17 +182,17 @@ section {
     margin-bottom: 0%;
     font-family: Philosopher;
 }
+
 .mybackground {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: 0 10vw;
-} 
+}
 
 #flashcardPicture {
     display: flex;
     justify-content: space-around;
-    max-width: 1440px;
     z-index: 1;
 }
 
@@ -245,7 +243,7 @@ section {
     width: 100%;
     height: 100%;
     border-radius: 20px;
-    
+
 }
 
 
@@ -262,7 +260,6 @@ section {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    max-width: 1440px;
 }
 
 .TheatreArtcard,
@@ -281,13 +278,13 @@ section {
 
 }
 
-#flashcard h4{
+#flashcard h4 {
     margin-bottom: 16px;
     font-size: 24px;
     font-family: Philosopher;
 }
 
-#flashcard img{
+#flashcard img {
     margin-bottom: 16px;
     width: 48px;
     height: 48px;
@@ -298,36 +295,73 @@ section {
 
 #worklistGrid {
     display: grid;
-    padding: 0 10vw;
-    grid-template: 503px 42px 42px 503px 42px 42px / 564px 564px;
-    grid-area:
-    "work1 work2"
-    "01PN 02PN"
-    "01PD 02PD"
-    "work3 work4"
-    "03PN 04PN"
-    "03PD 04PD";
+    grid-template: 407px 84px 407px / 564px 564px;
+    grid-template-areas:
+        "work1 work2"
+        "PD1 PD2"
+        "work3 work4"
+        "PD3 PD4";
 
 }
 
-#work1{
+#work1 {
     background-image: url("/image/photoWF.png");
     grid-area: work1;
 }
 
-#work2{
+#work2 {
     background-image: url("/image/photoWF.png");
     grid-area: work2;
 }
 
-#work3{
+#work3 {
     background-image: url("/image/photoWF.png");
     grid-area: work3;
 }
 
-#work4{
+#work4 {
     background-image: url("/image/photoWF.png");
     grid-area: work4;
+}
+
+.worklistGridArea {
+    background-size: cover;
+    background-position: center;
+    margin: 0 12px;
+    border-radius: 20px;
+
+}
+
+.Apptag {
+    width: 108px;
+    height: 58px;
+    border-radius: 20px;
+    background: #C7BBB1;
+    font-size: 24px;
+    font-family: Philosopher;
+    text-align: center;
+    line-height: 58px;
+    justify-content: cente;
+    color: #1c2321;
+    position: relative;
+    top: 0px;
+    left: 432px;
+
+}
+
+.Webtag {
+    width: 108px;
+    height: 58px;
+    border-radius: 20px;
+    background: #8D9190;
+    font-size: 24px;
+    font-family: Philosopher;
+    text-align: center;
+    line-height: 58px;
+    color: #1c2321;
+    position: relative;
+    top: 0px;
+    left: 432px;
 }
 
 /* Testimonial */

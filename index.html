@@ -7,12 +7,48 @@
     <title>Raine Cai Portfolio</title>
     <link rel="icon" type="image/x-icon" href="/image/RcLogo.png">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href='https://fonts.googleapis.com/css?family=Philosopher' rel='stylesheet'>
+    <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Open+Sans:wght@300&display=swap"
         rel="stylesheet">
+    <style>
+        h1 {
+            font-size: 49px;
+            font-family: Philosopher;
+        }
+
+        h2 {
+            font-size: 39px;
+            font-family: Philosopher;
+        }
+
+        h3 {
+            font-size: 31px;
+            font-family: Philosopher;
+        }
+
+        h4 {
+            font-size: 25px;
+            font-family: Philosopher;
+        }
+
+        h5 {
+            font-size: 20px;
+            font-family: Philosopher;
+        }
+
+        h6 {
+            font-size: 16px;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+        }
+    </style>
 
 </head>
 
@@ -26,13 +62,18 @@
             <ul>
                 <li><a href="#">Work</a></li>
                 <li><a href="#">About me</a></li>
-                <li><a href="#">Resume↗ </a></li>
+                <li><a href="#">
+                        <div class="Resumebox">Resume</div><img src="/image/arrow-right-up.png" alt="ArrowRightUp"
+                            width="24px" height="24px">
+                    </a></li>
+                    <span class="on">EN</span>
                 <label class="switch">
                     <input type="checkbox" id="togBtn">
                     <div class="slider round">
-                        <!--ADDED HTML -->
-                        <span class="on">EN</span>
+                        <!-- ADDED HTML -->
+
                         <span class="off">繁</span>
+
                 </label>
             </ul>
         </div>
@@ -107,7 +148,7 @@
         </section>
         <section id="worklistGrid">
             <div id="work1" class="worklistGridArea">
-                <div class="Apptag">APP</div>
+                <h5 class="Apptag">APP</h5>
             </div>
 
             <div id="PD1" class="PDText">
@@ -118,7 +159,7 @@
 
 
             <div id="work2" class="worklistGridArea">
-                <div class="Apptag">APP</div>
+                <h5 class="Apptag">APP</h5>
             </div>
 
 
@@ -128,7 +169,7 @@
             </div>
 
             <div id="work3" class="worklistGridArea">
-                <div class="Webtag">WEB</div>
+                <h5 class="Webtag">WEB</h5>
             </div>
 
             <div id="PD3" class="PDText">
@@ -139,7 +180,7 @@
 
 
             <div id="work4" class="worklistGridArea">
-                <div class="Webtag">WEB</div>
+                <h5 class="Webtag">WEB</h5>
             </div>
 
 
@@ -163,25 +204,30 @@
             </div>
             <div class="Ttext">
                 <p class="left">“</p>
-                <blockquote><em>Raine is an excellent designer who could meet the needs and expectations of clients. She
-                        is
-                        <strong>trustworthy</strong>, <strong>communicative</strong>, and
-                        <strong>efficient!</strong></em></blockquote>
+                <h3><em>Raine is an excellent designer who could meet the needs and expectations of clients. She
+                        is <span
+                            style="background-image: linear-gradient(transparent 70%, #C7BBB1 50%);">trustworthy</span>,
+                        <span
+                            style="background-image: linear-gradient(transparent 70%, #C7BBB1 50%);">communicative</span>,
+                        and
+                        <span
+                            style="background-image: linear-gradient(transparent 70%, #C7BBB1 50%);">efficient</span>!</em>
+                </h3>
                 <p class="right">”</p>
             </div>
         </section>
 
 
-      <!-- Encourage-->
-      <section class="Encourage">
-        <h5>—</h5>
-    </section>
-    <section class="Encourage">
-        <h5>Innovate, Connect, and Design Together - Find more on my social link.</h5>
-    </section>
+        <!-- Encourage-->
+        <section class="Encourage">
+            <h5>—</h5>
+        </section>
+        <section class="Encourage">
+            <h5>Innovate, Connect, and Design Together - Find more on my social link.</h5>
+        </section>
 
 
-</main>
+    </main>
     <!-- Footer-->
     <footer>
         <div id="FTop">
@@ -190,12 +236,6 @@
                 <img src="/image/Behance.png" alt="BehanceIcon" width="32px" height="32px">
                 <h6>raine.ytcai@gmail.com</h6>
             </div>
-            <!-- <div class="FRight">
-                <img src="/image/RcLogoDB.png" alt="RcLogo Dark Background" width="72px" height="72px">
-            </div>
-            <div class="FRight2">
-                <img src="/image/RcLogoDB.png" alt="RcLogo Dark Background" width="72px" height="72px">
-            </div> -->
         </div>
         <p>Copyright © 2023 Raine Cai </p>
     </footer>

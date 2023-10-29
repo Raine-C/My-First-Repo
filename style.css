@@ -4,16 +4,16 @@
 }
 
 header {
-    font-family: Philosopher;
+    font-family: philosopher;
+    font-size: 20px;
     color: #1c2321;
     background: #fafaefb3;
-    height: 100px;
-    width: 100%;
+    /* height: 100px; */
     display: flex;
-    position: fixed;
+    /* position: fixed; */
     justify-content: space-between;
     z-index: 5;
-    padding: 0px 0 0 10vw;
+    padding: 24px 10vw;
 
 }
 
@@ -28,6 +28,12 @@ header {
     align-items: center;
 }
 
+.Resumebox {
+    display: inline;
+    align-self: center;
+
+}
+
 
 header ul {
     /* line-height: 123px; */
@@ -37,7 +43,7 @@ header ul {
 header li {
     /* line-height: 123px; */
     display: inline;
-    margin-right: 1vw;
+    margin-right: 24px;
 }
 
 
@@ -137,16 +143,12 @@ section {
 }
 
 .introduction h1 {
-    font-size: 49px;
     color: #1c2321;
-    font-family: Philosopher;
     margin-bottom: 40px;
 }
 
 .introduction h3 {
-    font-size: 31px;
     color: #1c2321;
-    font-family: Philosopher;
     width: 588px;
     margin-bottom: 40px;
     /* margin-right: 80px; */
@@ -164,9 +166,7 @@ section {
 }
 
 .introduction h5 {
-    font-size: 20px;
     color: #1c2321;
-    font-family: Philosopher;
     padding: 16px 24px;
     margin-right: 24px;
 }
@@ -186,9 +186,7 @@ section {
 /* My Background */
 .title h2 {
     color: #1c2321;
-    font-size: 39px;
     text-align: center;
-    font-family: Philosopher;
     margin-top: 48px;
 }
 
@@ -257,10 +255,8 @@ section {
 
 
 .text h3 {
-    font-size: 31px;
     align-items: center;
     justify-content: center;
-    font-family: Philosopher;
     color: #fafaef;
 
 }
@@ -290,8 +286,6 @@ section {
 
 #flashcard h4 {
     margin-bottom: 16px;
-    font-size: 24px;
-    font-family: Philosopher;
 }
 
 #flashcard img {
@@ -348,8 +342,6 @@ section {
     height: 58px;
     border-radius: 20px;
     background: #C7BBB1;
-    font-size: 24px;
-    font-family: Philosopher;
     text-align: center;
     line-height: 58px;
     justify-content: center;
@@ -365,8 +357,6 @@ section {
     height: 58px;
     border-radius: 20px;
     background: #8D9190;
-    font-size: 24px;
-    font-family: Philosopher;
     text-align: center;
     line-height: 58px;
     color: #1c2321;
@@ -380,8 +370,6 @@ section {
 #PD3,
 #PD4,
 h4 {
-    font-family: Philosopher;
-    font-size: 25px;
     padding: 8px;
     color: #1c2321;
 }
@@ -391,8 +379,6 @@ h4 {
 #PD3,
 #PD4,
 h6 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
     padding: 8px;
     color: #8D9190;
 }
@@ -404,13 +390,11 @@ h6 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-family: Philosopher;
     color: #1c2321;
 }
 
 .Ttext {
     max-width: 580px;
-    font-size: 31px;
 
 }
 
@@ -428,20 +412,20 @@ h6 {
 
 .Ttext .right {
     text-align: right;
+    font-size: 64px;
 }
 
 .Ttext .left {
     text-align: left;
+    font-size: 64px;
 }
 
 .testimonial H4 {
-    font-size: 24px;
     padding: 0px 0 8px 0;
     text-align: left;
 }
 
 .testimonial h5 {
-    font-size: 20px;
     padding: 0px 0 2px 0;
     text-align: left;
 }
@@ -450,8 +434,6 @@ h6 {
 
 .Encourage h5{
     color:#1c2321;
-    font-size: 31px;
-    font-family: Philosopher;
     text-align: center;
     margin: 16px 0 0 0;
 }
@@ -460,16 +442,8 @@ h6 {
 /* Footer */
 footer {
     background: #1c2321;
-    padding: 24px 144px;
+    padding: 24px 10vw;
 }
-
-/* footer h5{
-    color: #fafaef;
-    font-size: 20px;
-    font-family: Philosopher;
-    /* text-align: center; */
-    /* margin-bottom: 32px; */
-} */
 
 #FTop {
     display: flex;
@@ -477,32 +451,18 @@ footer {
     height: 90px;
 }
 
-/* .FLeft{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} */
-
 .FLeft img{
     margin-right: 9px;
     margin-left: 7px;
 
 }
 footer h6 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
     background: #1c2321;
     color: #fafaef;
     text-align: left;
 }
 
-.FRight2{
-    opacity: 0;
-}
-
 footer p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
     background: #1c2321;
     color: #fafaefa0;
     text-align: right;

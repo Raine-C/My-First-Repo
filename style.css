@@ -491,3 +491,8 @@ footer p {
     color: #fafaefa0;
     text-align: right;
 }
+
+/* Media Query */
+@media screen {min-width: 768px;
+    
+}
